@@ -213,6 +213,28 @@ img.mock__screen {
   display: block;
 }
 
+/* SURVEY */
+.survey {
+  padding: 96px 0;
+  background:
+    radial-gradient(700px 400px at 50% -20%, rgba(0, 114, 178, 0.22), transparent 60%),
+    var(--bg-soft);
+}
+.survey__inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+.survey__inner h2 {
+  margin: 12px 0 16px;
+  font-size: clamp(28px, 4vw, 40px);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.survey__inner p { color: var(--muted); font-size: 17px; margin-bottom: 28px; }
+.survey__btn { display: inline-flex; align-items: center; gap: 10px; }
+
 /* FOOTER */
 .footer {
   background: #070b14;
